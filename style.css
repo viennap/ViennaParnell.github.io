@@ -179,7 +179,7 @@ nav.shift ul li a:hover:after {
 }
 
 .tab-links.active-link::after {
-    width: 100%;
+    width: 60%;
 }
 
 .tab-contents ul li {
@@ -350,7 +350,7 @@ nav.shift ul li a:hover:after {
 }
 
 .contact-left p i{
-    color: #e7bcff;
+    color: #fcfc99;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -370,14 +370,13 @@ nav.shift ul li a:hover:after {
 
 .social-icons a:hover {
     color: #e7bcff;
-    transform: translateY(-5px); 
-
+    transform: translateY(-5px);
 }
 
-.btn.btn2{
+.btn.btn2 {
     display:inline-block;
-    background: #6b6b6b;
-    color: #fff; 
+    border: 2px solid #fff;
+    color: #e7bcff;
 }
 
 .contact-right form{
