@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head> 
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width", initial-scale="1.0">
+    <title> Vienna Parnell's Personal Website </title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/32a86165fd.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+        <div id = "header"> 
+            <div class = "container">
+                <nav class = "shift">
+                    <ul>
+                        <li><a href = "#header"> Home </a></li>
+                        <li><a href = "#about"> About </a></li>
+                        <li><a href = "#lately"> Lately </a></li>
+                        <li><a href = "#projects"> Projects </a></li>
+                        <li><a href = "#contact"> Contact </a></li>
+                    </ul>
+                </nav>
+
+                <div class = "header-logo">
+                    <img src = "Images/VP.png">
+                </div>
+
+                <div class = "header-text">
+                    <h1> <span> Vienna Parnell </span> <br> </h1>
+                    <p> CS & Math Student @ Vanderbilt University <br> 
+                        <span> Podcast co-host, coding teacher, & published author—
+                            enjoys speaking, educating, and writing about all things tech!
+                            <br> Looking for early-college software opportunities to develop my interests
+                            in web development, machine learning, and human-computer interaction.
+                        </span></p>
+                </div>
+                <a href="#" class = "btn btn3"> View Resume </a>
+            </div>
+        </div>
+
+        <!-------- ABOUT --------->
+
+        <div id = "about">
+            <div class = "container">
+                <div class = "row">
+                    <div class="about-col-1">
+                        <img src = "Images/Graduate.JPG">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class = "sub-title">About Me</h1>
+                        <p> Hello! Thanks for stopping by. My name's Vienna.
+                            I'm from San Jose, CA, but I'm currently located in Nashville, TN, where
+                            I'm double majoring in computer science and applied math at Vanderbilt University. 
+                            I'm also pursuing a minor in engineering management. <br> <br>
+                            I created this personal website with several goals: <br> <br> </p>
+                            <div>
+                                <ul style = "list-style-type: circle">
+                                    <li> Present my experience and interests in an aesthetic, accessible format</li>
+                                    <li> Practice designing and implementing a website using HTML, CSS, and JavaScript </li>
+                                    <li> Having a fun side project to come back to once in a while to update and improve </li>
+                                    <li> Connect with people (like you)! </li>
+                                </ul>
+                            </div>
+                            <p> <br> Please reference my resume and linked projects below for a more detailed look into my 
+                                experience and qualifications. </p>
+                        <div class = "tab-titles">
+                            <p class = "tab-links active-link" onclick = "opentab('education')">Education</p>
+                            <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                            <p class = "tab-links" onclick = "opentab('skills')">Skills</p>
+                            <p class = "tab-links" onclick = "opentab('organizations')">Organizations</p>
+                            <p class = "tab-links" onclick = "opentab('socials')">Socials</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id = "education">
+                            <ul>
+                                <li><span>2022-2026, anticipated </span><br> Vanderbilt University | Nashville, TN  
+                                    <br> GPA: 4.0 </li>
+                                <li><span>2018-2022</span><br> The Harker School | San Jose, CA </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "experience">
+                            <ul>
+                                <li><span> December 2022 - expected March 2023 </span>
+                                    <br> Program Management & Marketing Intern @ Pure Mentorship </li>
+                                <li><span> November 2022 - present </span><br> Alumni Advisory Board Member 
+                                @ Pioneer Academics </li>
+                                <li><span> July 2021 - September 2021 </span><br> Computer Vision Research Scholar @
+                                Pioneer Academics — Facial Emotion Recognition </li>
+                                <li><span> August 2020 - November 2020 </span><br> Scholar & Ambassador @ Inspirit AI — Machine Learning for 
+                                    Criminal Justice </li> 
+                                
+                                <br>
+                                
+                                <li><span> For ongoing developer and leadership experience, please see the
+                                     "organizations" tab. </span></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "skills">
+                            <ul>
+                                <li><span>Programming Languages</span>: Java, C++, Python, HTML + CSS + Javascript </li>
+                                <li><span>Languages: </span>: English (native), Spanish (intermediate), Mandarin (beginner) </li>
+                                <li><span>Software: </span>: Microsoft Office, Adobe InDesign + Illustrator </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "organizations">
+                            <ul>
+                                <li><span>Vanderbilt Vanguard</span> - Staff Writer </li>
+                                <li><span>VU Engineering Council</span> - Board Member </li>
+                                <li><span>Code Ignite</span> - Python Instructor </li>
+                                <li><span>The Vanderbilt Hustler</span> - Podcast Co-Host </li>
+                                <li><span>Vanderbilt Data Science </span> - Developer </li>
+                                <li><span>The Vanderbilt Review</span> - Layout Staff </li>
+                                <li><span>Vanderbilt Undergraduate Research Journal </span> - Copy Editor </li>
+                                <li><span> Harker Speech and Debate </span> - Public Forum Assistant </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "socials">
+                             <div class="social-icons"> 
+                                <a href = "https://www.instagram.com/viennaparnell/" target = "_blank"> <i class = "fab fa-instagram"> </i> </a>
+                                <a href = "https://www.linkedin.com/viennaparnell/" target = "_blank"> <i class = "fab fa-linkedin"> </i> </a>
+                                <a href = "https://github.com/viennap" target = "_blank"> <i class="fa-brands fa-github"></i></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------- LATELY --------->
+        
+        <div id = "lately"></div>
+            <div class = "container"> 
+                <h1 class = "sub-title"> Lately... </h1>
+                <div class="lately-list">
+                    <div>
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <h2>Pure Mentorship </h2>
+                        <h3>Program Management & Marketing Intern</h3>
+                        <p> I recently began my internship at Pure Mentorship, a newly established non-profit that strives to 
+                            connect underrepresented students with mentors to receive professional, academic, and social
+                            support. My role involves working closely with the founder to oversee project schedules, 
+                            design the website and promotional material, and manage team members.  </p>
+                        <a href = "https://purementorship.wixsite.com/my-site", target = "_blank"> 
+                            <span> Learn More </span> </a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-microphone"></i>
+                        <h2>Podcast: Hot Girl Tech </h2>
+                        <h3> Co-Creator & Co-Host </h3>
+                        <p> I co-host Hot Girl Tech, a podcast that strives to make technology more fun and accessible
+                        to listeners of all backgrounds in casual, informative manner. </p>
+                        <a href = "https://open.spotify.com/show/2pY19otK47gW2iYKlKrX3O?si=a2f73dfeda9e4e79" target = "_blank"> 
+                            Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-newspaper"></i>
+                        <h2>VU Vanguard: Undergraduate STEM Newspaper </h2>
+                        <h3> Staff Writer </h3>
+                        <p> So far, I've authored articles on occupancy monitoring technology,
+                            machine learning for facial emotion recognition, and AI-assisted personalized learning. </p>
+                        <a href = "http://vanderbiltvanguard.com/?s=vienna+parnell" target = "_blank"> Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-------- PROJECTS --------->
+        <div id = "projects">
+            <div class="container">
+                <div class="sub-title">Projects</div>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/emotions.png">
+                        <div class="layer">
+                            <h3> Facial Emotion Recognition Using Neural Networks </h3>
+                            <p>
+                                As a 2021 Pioneer Academics summer research scholar, I conducted research in the area 
+                                of computer vision and explored the use of computer algorithms in interpreting human emotion
+                                by recognizing miniscule muscular movements in the face. 
+                            </p>
+                            <a href = "https://docs.google.com/document/d/1Y3tET1nIrATbDB6v2K3L15StjG15enXY/edit?usp=sharing&ouid=101251099812790814136&rtpof=true&sd=true"
+                            target = "_ blank"> 
+                                <i class = "fas fa-external-link-alt"> </i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/CreasePattern.png">
+                        <div class="layer">
+                            <h3> Miniature Robotics: Origami-Inspired Ingestible Biomedical Robots </h3>
+                            <p></p>
+                                In this project, I designed a 2in. x 2in. foldable "robot" that is swallowed by a 
+                                patient who has accidentally ingested a button battery. This project both built on my 
+                                enjoyment of the traditional art of origami and my interest in learning about its 
+                                applications in engineering. 
+                            </p>
+                            <a href = "ViennaParnellOrigamiProject.pdf", target = "_blank"> 
+                                <i class = "fas fa-external-link-alt"> </i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/Summary.png">
+                        <div class="layer">
+                            <h3>A Review of Origami-Inspired Applications in the Biomedical Field</h3>
+                            <p>
+                                I published my review paper, "Self-Folding Non-Invasive Miniature Robots: Progress
+                                and Trend in the Biomedical Field," in the international peer-reviewed journal Nano
+                                Biomedicine and Engineering.
+                            </p>
+                            <a href = "ViennaParnellReviewPaperPublished.pdf"> target = "blank" 
+                                <i class = "fas fa-external-link-alt"> </i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------- CONTACT --------->
+     
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left"> 
+                        <h1 class = "sub-title"> Contact Me </h1>
+                        <p> <i class = "fas fa-paper-plane"> </i> vienna.z.parnell@vanderbilt.edu </p>
+                        <p> <i class = "fas fa-phone-square-alt"> </i>669-262-9506 </p>
+                        <div class="social-icons"> 
+                            <a href = ""> <i class = "fab fa-linkedin"> </i> </a> 
+                            <a href = ""> <i class = "fab fa-instagram"> </i> </a>
+                        </div>
+                        <a href="#" class = "btn btn2"> View Resume </a>
+                    </div>
+                    <div class="contact-right"> 
+                        <form name = "submit-to-google-sheet">
+                            <input type = "text" name = "Name" placeholder = "Your Name" required>
+                            <input type = "email" name = "Email" placeholder = "Your Email" required>
+                            <textarea name="Message" rows="6" placeholder = "Your Message"></textarea>
+                            <button type = "submit" class = "btn btn2">Submit</button>
+                        </form>
+                        <span id = "msg"> Want to reach out? Send me a message! I look forward to connecting with you soon. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright © Vienna Parnell. Reference: Easy Tutorials on YouTube.
+                </p>
+            </div>
+        </div>
+
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyIPcVh8v5Yz3I6wptEul4Zr060DrvKth3bQLZwghoDHSlKY-78hyiiJ8Dl_SjwO2GQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+        
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully."
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                        ()
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+
+</html>
