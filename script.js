@@ -29,7 +29,7 @@ window.onload = function() {
     var loading = document.getElementById("loading");
     setTimeout(function() {
       loading.style.display = "none";
-      window.location.href = "http://viennap.github.io"; // Change this to the URL of your home page
+      window.location.href = "index.html"; // Change this to the URL of your home page
     }, 3000); // Delay the redirection by 3 seconds (3000 milliseconds)
   }
   
