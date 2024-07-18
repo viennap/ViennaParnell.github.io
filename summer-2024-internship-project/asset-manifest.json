@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/summer-2024-internship-project/static/css/main.df18a315.css",
+    "main.js": "/summer-2024-internship-project/static/js/main.36b188e0.js",
+    "index.html": "/summer-2024-internship-project/index.html",
+    "main.df18a315.css.map": "/summer-2024-internship-project/static/css/main.df18a315.css.map",
+    "main.36b188e0.js.map": "/summer-2024-internship-project/static/js/main.36b188e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df18a315.css",
+    "static/js/main.36b188e0.js"
+  ]
+}
